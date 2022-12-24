@@ -1,0 +1,8 @@
+income = float(input("enter your income"))
+inc_standard_ded= income-10000
+dependents = int(input("enter number of dependents"))
+d = dependents*3000
+e = inc_standard_ded-d
+f = (0.2*e)
+print(f)
+print("payable income tax")
