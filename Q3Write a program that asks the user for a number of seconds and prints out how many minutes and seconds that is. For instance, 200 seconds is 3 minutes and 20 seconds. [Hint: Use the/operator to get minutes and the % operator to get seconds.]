@@ -1,0 +1,4 @@
+seconds= int(input("enter any number of seconds"))
+minutes = seconds//60
+sec= seconds%60
+print("minutes,seconds" minutes , sec)
